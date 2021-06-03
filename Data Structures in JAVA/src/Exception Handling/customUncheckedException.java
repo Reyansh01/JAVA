@@ -5,7 +5,7 @@ i.e exception would not be handled (for example, if we write hello below the lin
 then that hello would not be printed). So for that we need to use try catch block.
 */
 
-public class uncheckedException extends RuntimeException {
+class uncheckedException extends RuntimeException {
 	uncheckedException() {
 		super("This is unchecked exception..");
 	}
