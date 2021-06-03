@@ -3,7 +3,7 @@
 2. Unchecked exception (Run time exception) --> RuntimeException class is extended.
 */
 
-public class checkedException extends Exception {
+class checkedException extends Exception {
 	customException() {
 		super("This is a custom exception..");
 	}
